@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Add Runner</title>
+</head>
+
+<body>
+  <form action="/add" method="post">
+    <div id="form">
+      <span>New Runner: </span>
+      <input type="text" name="bib_id" value="{{newId}}" readonly>
+      <input type="text" placeholder="Name" name="name">
+      <input type="text" placeholder="Sponsor" name="sponsor">
+      <input type="text" placeholder="Division" name="division">
+      <button>Add Runner</button>
+    </div>
+  </form>
+</body>
+
+</html>
