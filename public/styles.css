@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+.runner {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
