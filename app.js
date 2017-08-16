@@ -24,11 +24,6 @@ app.get('/', (req, res, next) => {
   });
 });
 
-// 1. Install mustache-express
-// 2. Show all runners not as json.
-// 3. Add a button to go to a details page. Select that looks up by bib_id.
-// 4. Make a form to add a new runner (division, sponsor, name).
-
 app.get('/add', (req, res) => {
   res.render('addRunner')
 });
